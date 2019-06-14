@@ -3,7 +3,7 @@
 # Utility script that helps you remove branches that are no longer on remote
 
 echo 'Fetching branches...'
-git fetch -p
+git fetch --prune --all
 echo 'Branches fetched.'
 
 
