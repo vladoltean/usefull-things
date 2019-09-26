@@ -21,7 +21,7 @@ Search for string "port=" in all files ending in .xml in /usr/local/tomcat (Show
 
 See **man grep** for more.
 
-### Find a process
+### Find a process in Mac OS
 Find the process id that uses a port:
 
 * **netstat -pnlt | grep ':8086'**
