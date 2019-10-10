@@ -34,3 +34,14 @@ Open a htop with the process 42846:
 
 ### Check disk
 **df -h**
+
+### Find dependency in maven dependency tree
+```bash
+mvn dependency:tree -X | grep --color -C 15 lib-name
+```
+* `-X` for extra information (_execution debug output_)
+
+* `--color` - to enable colored output of the searched term
+* `-C` numbers of line to show before and after the found term
+
+
