@@ -42,6 +42,6 @@ mvn dependency:tree -X | grep --color -C 15 lib-name
 * `-X` for extra information (_execution debug output_)
 
 * `--color` - to enable colored output of the searched term
-* `-C` numbers of line to show before and after the found term
+* `-C` number of lines to be displayed before and after the found term
 
 
